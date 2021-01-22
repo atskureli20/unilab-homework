@@ -8,17 +8,19 @@
 .clear{
     clear: both;
 }
-
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
 .con-title{
     width: 465px;
-    font-family: 'Poppins', sans-serif;
     font-size: 42px;
 }
 .con-type{
-    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #5863F8;
+    text-transform: uppercase;
 }
+/* მთავარი კონტეინერი */
 .container{
     width: 1089px;
     margin-top: 72px;
@@ -28,10 +30,11 @@
 .content{
     margin-top: 50px;
 }
-
+/* /// */
+/* კოინტეინერში არსებული ბოქსები */
 .box{
     width: 352px;
-    height: 370px;
+    height: auto;
     padding-right: 16px;
 }
 .box-img{
@@ -40,4 +43,33 @@
 .about{
     background-color: #F8F8F8;
     text-align: center;
+
+}
+.about-type{
+    font-size: 14px;
+    color: #5863F8;
+    padding-top: 23px;
+    text-transform: uppercase;
+}
+.about-title{
+    font-size: 18px;
+    color: #000;
+    padding-top: 5px;
+}
+.about-description{
+    width: 260px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #B1B1B1;
+    padding-bottom: 23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.con-two{
+    margin-top: 16px;
+}
+.con-two::after{
+    content: ' ';
+    clear: both;
+    display: block;
 }

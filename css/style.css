@@ -4,9 +4,25 @@
 .f-right{
     float: right;
 }
+.clear{
+    clear: both;
+}
 .container{
     width: 1089px;
     height: 921px;
+    margin-top: 72px;
     margin-left: auto;
     margin-right: auto;
+}
+.box{
+    width: 352px;
+    height: 370px;
+    padding-right: 16px;
+}
+.box-img{
+    width: 100%;
+}
+.box-description{
+    background-color: #F8F8F8;
+    text-align: center;
 }

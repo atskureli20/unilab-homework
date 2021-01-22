@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 .f-left{
     float: left;
 }
@@ -7,13 +8,27 @@
 .clear{
     clear: both;
 }
+
+.con-title{
+    width: 465px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+}
+.con-type{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #5863F8;
+}
 .container{
     width: 1089px;
-    height: 921px;
     margin-top: 72px;
     margin-left: auto;
     margin-right: auto;
 }
+.content{
+    margin-top: 50px;
+}
+
 .box{
     width: 352px;
     height: 370px;
@@ -22,7 +37,7 @@
 .box-img{
     width: 100%;
 }
-.box-description{
+.about{
     background-color: #F8F8F8;
     text-align: center;
 }

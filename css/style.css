@@ -49,13 +49,13 @@
 .about-type{
     font-size: 14px;
     color: #5863F8;
-    padding-top: 23px;
+    margin-top: 23px;
     text-transform: uppercase;
 }
 .about-title{
     font-size: 18px;
     color: #000;
-    padding-top: 5px;
+    margin-top: 5px;
 }
 .about-description{
     width: 260px;

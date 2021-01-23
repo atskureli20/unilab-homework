@@ -22,7 +22,7 @@
 }
 /* მთავარი კონტეინერი */
 .container{
-    width: 1089px;
+    width: 1200px;
     margin-top: 72px;
     margin-left: auto;
     margin-right: auto;
@@ -35,13 +35,15 @@
 .box{
     width: 352px;
     height: auto;
-    padding-right: 16px;
+    margin-right: 16px;
+    border-radius: 10px;
+    background-color: #F8F8F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
 }
 .box-img{
-    width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 .about{
-    background-color: #F8F8F8;
     text-align: center;
 }
 .about-type{
